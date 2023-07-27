@@ -1,0 +1,78 @@
+/* Estilo geral */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+}
+
+.fome {
+    background-color: grey;
+    display: flex;
+    justify-content: center;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Estilo do formulário */
+.right {
+    display: flex;
+    background-color: #fff;
+    box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    margin-bottom: 1rem;
+}
+
+.content {
+    padding: 2rem;
+}
+
+.right_form {
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.right_form_section {
+    margin-bottom: 1rem;
+}
+
+.label {
+    font-weight: bold;
+}
+
+.input {
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+/* Estilo do verificador de idade */
+.inside {
+    background-color: #fff;
+    box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.botao {
+    margin-left: 1rem;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 5px;
+    background-color: #1c8adb;
+    color: #fff;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+#resultado {
+    margin-top: 1rem;
+    font-size: 1.2rem;
+}

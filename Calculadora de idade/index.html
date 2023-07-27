@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Descubra aqui se você é menor ou maior de idade</title>
+    <link rel="stylesheet" type="text/css" href="estiloso.css">
+    <script src="idade.js"></script>
+</head>
+
+<body>
+
+    <header>
+        <div class="fome">
+            <h1>Classificação de idade</h1>
+        </div>
+    </header>
+
+    <main>
+        <!--Aqui é a parte que faz você digitar o nome-->
+        <div class="right">
+            <div class="content">
+            </div>
+
+            <form action="" autocomplete="on" class="right_form">
+                <section class="right_form_section">
+                    <label for="nome" class="label">Nome:</label><br>
+                    <input type="text" id="nome" name="nome" required="required" placeholder="Nome" class="input"
+                        required pattern="[A-Za-záàâãéèêíïóôõöúçñÁÀÂÃÉÈÍÏÓÔÕÖÚÇÑ ]+$" />
+                    <br>
+                    <button type="submit">Validar</button>
+                </section>
+            </form>
+        </div>
+        <br>
+        <div class="inside">
+            <label>Verificador o seu momento de vida</label>
+            <br>
+            <label for="inputAnoIdade">Idade atual:</label>
+            <input type="number" id="Idade_Atual">
+            <button class="botao" onclick="verificarIdade()">Verificar</button>
+            <p id="resultado"></p>
+        </div>
+    </main>
+</body
